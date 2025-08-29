@@ -3,11 +3,10 @@ body {
   margin: 0;
   padding: 30px;
   min-height: 100vh;
-  /* background: #1c0d92; */
+  background: #e0e7dc;
   /* background-image: url('images/quizappbackground.jpg'); 
   background-position: center;   */
-  background: linear-gradient(135deg, #116bcb, #fc25df);
-
+/* background: linear-gradient(135deg, #40dad8, #c31d00); */
 }
 
     .quiz-container {
@@ -75,8 +74,8 @@ body {
       display: block;
       width: 100%;
       padding: 15px;
-  background: linear-gradient(135deg, #116bcb, #fc25df);
-      color: white;
+background: #006905;
+  color: white;
       font-size: 18px;
       border: none;
       border-radius: 8px;
@@ -86,8 +85,8 @@ body {
     }
 
     .submit-btn:hover {
-  background: linear-gradient(135deg, #116bcb7c, #fc25df75);
-    }
+background: #00690571;
+  }
 
     .result {
       text-align: center;
