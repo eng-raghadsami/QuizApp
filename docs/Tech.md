@@ -7,8 +7,7 @@ The app is a form with 10 questions and each one has three options that the user
 - `index.html` - the main structure of the app (entry point)
 - `style.css` - the css style of the app
 - `script.js` - the logic added to the app
-- `quiz.js` - the container class in the app
-- `question.js` - the basic class
+- `Quiz.js` - the container class in the app
 - `MultipleChoiceQuestion.js` - the first type of questions in the app
 - `TrueFalseQuestion.js` - the second type of questions in the app
 - `Storage.js` - handle saving and retrieving answers from localStorage
