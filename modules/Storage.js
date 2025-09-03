@@ -8,12 +8,13 @@ export class Storage {
     localStorage.setItem(this.#key, JSON.stringify(answers));
   }
 
-  getAnswers(){
-    const savedAnswers = localStorage.getItem(this.#key);
-    return savedAnswers ? JSON.parse(savedAnswers) : {};
-  }
+ getAnswers(){
+  const savedAnswers = localStorage.getItem(this.#key);
+  return savedAnswers ? JSON.parse(savedAnswers) : [];
+}
 
   clear(){
     localStorage.removeItem(this.#key);
+    
   }
 }

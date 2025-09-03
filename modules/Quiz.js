@@ -1,4 +1,4 @@
-class Quiz {
+export class Quiz {
     constructor(){
         this.questions = [];           
         this.answers = {};            
@@ -26,5 +26,6 @@ class Quiz {
             return this.score;
         
     }
+     
 
 }

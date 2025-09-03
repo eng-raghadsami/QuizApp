@@ -1,6 +1,10 @@
-export class TrueOrFalseQuestion extends Question{
+export class TrueOrFalseQuestion {
     constructor(text,correctAnswer){
-        super(text, correctAnswer);
-        this.options=["True","False"];
+        this.text=text;
+        this.correctAnswer=correctAnswer;
+        this.options=["صح","خطأ"];
+    }
+    isCorrect(answer) {
+        return answer === this.correctAnswer;
     }
 }
